@@ -1,0 +1,71 @@
+.btn, .form-control {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  
+  .btn:focus, .btn:active, .form-control:focus, .form-control:active {
+    outline: none;
+    border-color: #fcb3bf;
+  }
+  
+  .form-control {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    height: 50px;
+    border-width: 2px;
+    padding: 10px 20px;
+  }
+  
+  textarea.form-control {
+    height: inherit;
+  }
+  
+  .btn {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    border-radius: 0;
+  }
+  
+  .btn.btn-primary {
+    color: #fff;
+    border-width: 2px;
+    border: none;
+    background-color: #F73859;
+    height: 45px;
+  }
+  
+  .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+    border-color: #f96982;
+    background-color: #f96982;
+  }
+  
+  .btn.btn-sm {
+    font-size: 12px;
+  }
+  
+  .btn.btn-outline-primary {
+    border-width: 2px;
+    color: #F73859;
+  }
+  
+  .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
+    color: #fff;
+  }
+  
+  .btn.btn-outline-white {
+    border-width: 2px;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .btn.btn-outline-white:hover, .btn.btn-outline-white:focus {
+    background: #fff;
+    color: #000;
+    border-width: 2px;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }

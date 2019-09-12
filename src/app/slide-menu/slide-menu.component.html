@@ -1,0 +1,59 @@
+  <div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar" [ngClass]="{ 'active': navbarOpen }">
+      <!-- <div class="sidebar-header">
+        <h3>Bootstrap Sidebar</h3>
+      </div> -->
+
+      <ul class="list-unstyled components">
+        <!-- <p>Dummy Heading</p> -->
+        <li><a routerLink="bio" routerLinkActive="active">Bio</a></li>
+        <li><a routerLink="portfolio">Portfolio</a></li>
+        <li><a routerLink="resume">Resume</a></li>
+        <li><a routerLink="contact">Contact</a></li>
+      </ul>
+      
+      <ul class="social">
+        <li><a href="https://twitter.com/anandgupta143" class="fa fa-twitter"></a></li>
+        <li><a href="https://www.facebook.com/anandgupta91" class="fa fa-facebook"></a></li>
+        <li><a href="https://www.instagram.com/anandgupta_official/" class="fa fa-instagram"></a></li>
+        <li><a href="https://www.linkedin.com/in/anandgupta14/" class="fa fa-linkedin"></a></li>
+    </ul> 
+
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+     <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with  -->
+    <!--<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by <b><em>Anand Gupta</em></b>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+
+      
+    </nav>
+
+    <!-- Page Content Holder -->
+    <div id="content">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <button type="button" id="sidebarCollapse"  (click)="toggleNavbar()" class="navbar-btn">
+            Menu
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <!-- Popper.JS -->
+  <!-- Bootstrap JS -->
+
+  <script type="text/javascript">
+    // $(document).ready(function () {
+    //   $('#sidebarCollapse').on('click', function () {
+    //     $('#sidebar').toggleClass('active');
+    //     $(this).toggleClass('active');
+    //   });
+    // });
+
+  </script>
